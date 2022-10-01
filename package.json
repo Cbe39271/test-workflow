@@ -1,0 +1,19 @@
+{
+  "name": "test-workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Cbe39271/marketplace-app.gitit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cbe39271/marketplace-app.gitit/issues"
+  },
+  "homepage": "https://github.com/Cbe39271/marketplace-app.gitit#readme"
+}
