@@ -1,4 +1,4 @@
-name: Development
+name: Demo
 
 on:
   pull_request:
@@ -29,7 +29,10 @@ jobs:
 
       - name: "📦 install dependencies"
         uses: bahmutov/npm-install@v1
-
+        with:
+          useLockFile: false
+          useRollingCache: true
+          
       - name: "🔍 run tests"
         run: npm run test --if-present
   
