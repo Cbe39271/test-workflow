@@ -34,6 +34,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     name: A job to test the action-deploy action by deploying a test site
+    if: ${{ success() }}
+    needs: [test]
     steps:
       - uses: actions/checkout@v2
       - name: Deploy test site
