@@ -7,6 +7,8 @@ on:
       - edited
       - synchronize
       - reopened
+    branches:    
+      - main
   workflow_call:
 
 jobs:
