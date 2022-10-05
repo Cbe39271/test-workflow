@@ -1,10 +1,10 @@
 {
- "site": {
-    "id": "0991882f-3be7-482d-9208-89899a3632e7",
-    "team": "perfect-team",
+  "site": {
+    "id": "8d117863-c774-47a2-a321-706be9380cc6",
+    "team": "800bfb5a-553d-4c28-9069-929eb113258e",
     "platform": "ipfs",
     "source": "ipfs",
-    "name": "hidden-waterfall-6189"
+    "name": "solitary-band-3117"
   },
  "build": {
    "baseDir": "build"
